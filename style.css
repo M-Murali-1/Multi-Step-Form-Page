@@ -1,0 +1,129 @@
+/* Custom CSS Files */
+
+body,
+.total-container,
+.btn-background {
+  background-color: hsl(206, 94%, 96%) !important;
+}
+body {
+  min-height: 100vh !important;
+}
+
+.circle {
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+}
+
+.blue-color,
+#goback-btn:hover,
+#goback-btn-mobile:hover {
+  color: hsl(213, 96%, 18%) !important;
+}
+
+#next-btn:hover {
+  opacity: 0.7 !important;
+}
+.active {
+  background-color: hsl(206, 94%, 87%);
+  color: hsl(213, 96%, 18%);
+}
+
+.custom-width-2 {
+  min-width: min(100%, 850px);
+  max-width: 850px;
+}
+
+.custom-width-1 {
+  width: 30%;
+}
+.selector-bar {
+  margin: 0 1.5rem;
+  padding: 0.2rem;
+  width: 3rem;
+  height: 1.5rem;
+  border-radius: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.items:hover {
+  border-color: indigo !important;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.selector-ball {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: white;
+  transition-duration: 2s;
+}
+
+.medium-text {
+  font-size: 0.8rem;
+}
+
+.coloured {
+  color: indigo;
+}
+
+.selected {
+  border-color: indigo !important;
+  background-color: rgb(128, 128, 128, 0.1);
+}
+
+.final {
+  background-color: rgb(128, 128, 128, 0.1);
+}
+
+.custom-height-1 {
+  width: 100vw;
+  height: auto;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 767.95px) {
+  .position-custom {
+    position: absolute !important;
+    top: 20vw;
+    box-sizing: border-box;
+    width: 92vw !important;
+    left: 4%;
+    height: 90%;
+    margin-bottom: 3rem;
+  }
+
+  .small-container {
+    background-color: hsl(206, 94%, 96%) !important;
+  }
+  body {
+    position: relative !important;
+  }
+  .button-container {
+    position: absolute !important;
+    height: 6%;
+    bottom: 0 !important;
+    width: 100% !important;
+  }
+
+  .button-container-desktop {
+    display: none;
+  }
+
+  .individual {
+    width: 100% !important;
+  }
+  .total-container {
+    height: 93% !important;
+    position: relative !important;
+  }
+  .plan-namer,
+  .label-name {
+    font-size: 0.9rem;
+  }
+  .heading-mobile {
+    font-size: 1.6rem !important;
+  }
+}
