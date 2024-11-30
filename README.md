@@ -1,64 +1,48 @@
-## Welcome! 👋
+## MULTI-STEP FORM PAGE
 
-Thanks for checking out this front-end coding challenge.
+### Project Details  
+**Name :** Multi-Step Form Page
+**Technologies Used :** HTML,CSS,Javascript
+**CSS Framework Used :** Bootstrap
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+### This project contains total of 5 pages.
 
-## The challenge
+- Personal info page
+- Select Plan page
+- Picking add-ons page
+- Finishing up page
+- Thanking page
 
-Your challenge is to build out this multi-step form and get it looking as close to the design as possible.
+#### 1.Personal info page
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- Here you needed to enter your personal information such as the name,Email address and the mobile number.
+- Without entering all these details you will not able to move to next page.
 
-Your users should be able to:
+#### 2. Select plan page
 
-- Complete each step of the sequence
-- Go back to a previous step to update their selections
-- See a summary of their selections on the final step and confirm their order
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- Receive form validation messages if:
-  - A field has been missed
-  - The email address is not formatted correctly
-  - A step is submitted, but no selection has been made
+- Here you needed to select the plan based on your requirment.
+- Defaulty the first plan is selected.
+- Here you have the plan selection for both the month and the year.
+- Clicking on the toggle button present at the bottom you can be able to switch between the monthly and yearly plan.
+- Without selecting any plan you will not be able to move further.
 
-## Where to find everything
+#### 3.Picking add-ons page
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+- Here you can select the add-ons for the plan based on your requirment.
+- This is an optional step.
+- Here you will get the plans for monthly or yearly based on the selection in the previous step.
+- You can be able to move further without selecting any add-ons in this step.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+#### 4. Finshing up page
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+- Here in this page you will able to see the plan and the add-ons that you had been selected along with the final price to be payed.
+- You can able to change the add-ons by clicking the Go Back button present in the bottom and plan by clicking on the change below of the plan.
+- By clicking on the confirm you are done with all the steps.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+#### 5. Thanking page
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- This step will displays thanking you message along with the email id of required for the support.
 
-## Building your project
+**By clicking on the Next Button in every page it will move to the further page.**
+**By clicking the Go Back button you can be able to go for the previous page.**
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-**Have fun building!** 🚀
